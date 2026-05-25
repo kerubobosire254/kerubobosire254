@@ -15,17 +15,19 @@ create the most measurable impact.
 
 ## 🚀 Featured Projects
 
-### 💳 SME Credit Scoring System
-> ML-powered credit risk assessment for small and medium enterprises
+### 💳 SME Credit Risk Intelligence Platform
+> ML-powered system for SME credit scoring and explainable risk analysis
 
-Designed a risk scoring pipeline that classifies default probability for SME loan
-applicants, replicating real-world credit evaluation logic used in financial institutions.
+Built an end-to-end machine learning system that predicts SME credit risk and converts financial data into interpretable lending insights.
 
-- Built end-to-end classification pipeline for credit risk assessment
-- Applied feature engineering tailored to SME financial behavior
-- Focused on interpretability for financial decision-making
+- Predicts Probability of Default (XGBoost-based model)
+- Generates credit scores from raw SME financial data
+- Engineers key risk features (cash flow, liquidity, leverage, profitability)
+- Segments SMEs into risk profiles (Stable, Growth, Seasonal, Distressed)
+- Provides explainable risk drivers for underwriting decisions
+- Produces structured credit risk reports
 
-**Stack:** Python · Pandas · Scikit-learn
+**Tech Stack:** Python · XGBoost · Pandas · Scikit-learn · Feature Engineering · Explainable AI
 
 Live Demo : https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/
 
@@ -42,16 +44,21 @@ behavior of financial time-series and the limits of predictive modeling in volat
 **Stack:** Python · Pandas · Scikit-learn · Time Series Analysis
 
 ### 🧠 Sentiment Analysis Model
-> NLP classifier for user-generated content
 
-Built a text classification pipeline that detects sentiment polarity from raw user content —
-covering preprocessing, feature extraction, and model evaluation.
+> Machine learning app that classifies Amazon reviews as positive or negative sentiment
 
-- Designed full NLP preprocessing pipeline (tokenization, stopword removal, vectorization)
-- Trained and compared classification models for sentiment detection
-- Surfaced actionable language insights from unstructured data
+Built an NLP-based sentiment analysis system that processes product reviews and predicts customer sentiment in real time using traditional machine learning models.
 
-**Stack:** Python · NLP · Scikit-learn
+- Cleans and preprocesses raw text data (removes noise, HTML, symbols)
+- Converts text into numerical features using TF-IDF vectorization
+- Trains and compares multiple ML models (Naive Bayes, Logistic Regression, SVM)
+- Handles class imbalance using oversampling techniques
+- Outputs sentiment prediction with confidence score
+- Deployed as an interactive Streamlit web app
+
+**Best Model:** Logistic Regression (best balance of accuracy and generalization)
+
+**Tech Stack:** Python · NLP · Scikit-learn · TF-IDF · Streamlit
 
 Live Demo : https://sentiment-analysisapp-qqzxw6exrhfvsby5ygndf2.streamlit.app/
 
@@ -68,19 +75,19 @@ Built a recruiter-facing LLM-powered chatbot that serves as an interactive way t
 
 **Stack:** Python · NLP · LLM APIs
 
-### 🎵 Spotify Listening Analytics
+### 🎵 Spotify Listening Analytics App
 
-> Behavioral analytics dashboard for music consumption insights
+> Turns Spotify listening history into behavioral insights and user listening personality
 
-Built an interactive analytics system that processes Spotify listening history to surface
-personalized behavior trends and consumption patterns.
+Built a data analytics app that transforms raw Spotify streaming data into interpretable listening patterns and archetypes.
 
-- Processed and cleaned raw streaming history data
-- Identified listening trends across time, genre, and artist behavior
-- Delivered insights through an interactive Streamlit dashboard
+- Analyzes listening habits (skip rate, duration, artist diversity)
+- Detects behavioral patterns (deep vs casual, explorer vs loyalist)
+- Identifies time-based behavior (morning, day, night)
+- Generates listening personality archetypes
+- Interactive dashboard using Streamlit
 
-**Stack:** Python · Pandas · Plotly · Streamlit
-
+**Tech Stack:** Python · Pandas · Streamlit · Plotly
 Live Demo : https://the-spotify-data-analysis-m6w3vxjncfcxyx8yaitjkb.streamlit.app/
 
 ## 🧰 Tech Stack
