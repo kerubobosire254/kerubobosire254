@@ -26,6 +26,7 @@ applicants, replicating real-world credit evaluation logic used in financial ins
 - Focused on interpretability for financial decision-making
 
 **Stack:** Python · Pandas · Scikit-learn
+
 Live Demo : https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/
 
 ### 📈 Stock Price Prediction System
@@ -51,6 +52,7 @@ covering preprocessing, feature extraction, and model evaluation.
 - Surfaced actionable language insights from unstructured data
 
 **Stack:** Python · NLP · Scikit-learn
+
 Live Demo : https://sentiment-analysisapp-qqzxw6exrhfvsby5ygndf2.streamlit.app/
 
 ### 🤖 AI Interview Assistant Chatbot 
@@ -78,6 +80,7 @@ personalized behavior trends and consumption patterns.
 - Delivered insights through an interactive Streamlit dashboard
 
 **Stack:** Python · Pandas · Plotly · Streamlit
+
 Live Demo : https://the-spotify-data-analysis-m6w3vxjncfcxyx8yaitjkb.streamlit.app/
 
 ## 🧰 Tech Stack
@@ -85,10 +88,10 @@ Live Demo : https://the-spotify-data-analysis-m6w3vxjncfcxyx8yaitjkb.streamlit.a
 | Area | Tools |
 |---|---|
 | **Languages** | Python, SQL |
-| **ML & Data** | Pandas, NumPy, Scikit-learn |
+| **ML & Data** | Pandas, NumPy, Scikit-learn, Deep Learning Techniques |
 | **NLP** | NLTK, text preprocessing, classification |
-| **Visualization** | Matplotlib, Plotly, Power BI |
-| **Applications** | Streamlit |
+| **Visualization** | Matplotlib, Seaborn, Plotly, Power BI |
+| **Applications** | Streamlit, Flask |
 
 
 ## 📌 Currently Building Toward
