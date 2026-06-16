@@ -2,78 +2,71 @@
 
 **Actuarial Scientist → Machine Learning Engineer + AI Engineer**
 
-I build end-to-end ML systems across healthcare AI, financial intelligence, NLP, and behavioural analytics — from raw data to deployed, production-ready applications. My actuarial science background shapes how I think about risk, uncertainty, and model accountability. My projects reflect that rigour.
+I build end-to-end ML systems across healthcare AI, financial intelligence, NLP, and behavioural analytics from raw data to deployed, production-ready applications. My actuarial science background shapes how I think about risk, uncertainty, and model accountability. My projects reflect that rigour.
 
 Currently: Pension Administrator at **Enwealth Financial Services** · Python & Data Science Trainer at **Tech Savvy Institute** · Actively seeking ML Engineer / Data Scientist/ AI Engineer roles.
 
-## 🎗️ BreastCare Kenya
-**Clinical decision support for breast cancer screening in Kenya**
 
-78% of Kenyan patients are diagnosed at Stage III or IV. The gap isn't awareness, it's point-of-care support. Practitioners know the signs. They just don't always have the right tool when they need it.
+## 🩺 BreastCare Kenya
+**[breastcancer_help_app](https://github.com/kerubobosire254/breastcancer_help_app)**
 
-BreastCare Kenya is a 7-module platform: risk assessment → screening checklist → referral intelligence → follow-up tracking → analytics dashboard → clinical CareBot. Every module feeds the next automatically. One patient. One journey. Zero re-entry.
+Breast cancer is one of the leading causes of cancer deaths among Kenyan women yet most healthcare workers have no clinical decision support tool at their fingertips. Screening decisions are made from memory, in under-resourced settings, often without internet access.
 
-CareBot answers clinical questions on staging, referral criteria, and BSE technique — fully offline, zero API keys — because the facilities that need this most often have the worst connectivity.
+BreastCare Kenya is a clinical decision support platform built specifically for Kenyan healthcare workers. It uses a KAP survey of 250 practitioners as its foundation, flags high-risk patients based on clinical inputs, generates automatic referral letters and handover summaries, and includes an offline-capable NLP chatbot covering 11 clinical topics — no paid API, no internet required. Built as a solo hackathon entry for Build54.
 
-*Built for the Build54 Hackathon. Grounded in a KAP survey of 250 Kenyan health practitioners.*
+It is a 7-module platform: risk assessment → screening checklist → referral intelligence → follow-up tracking → analytics dashboard → clinical CareBot. Every module feeds the next automatically. One patient. One journey. Zero re-entry.
 
-🔗 [Live App](https://breastcarekenya.streamlit.app/) · [Dashboard](https://breastcaredashboard.streamlit.app/) · [Repo](https://github.com/kerubobosire254/breastcancer_help_app)
-
-`Python` `Streamlit` `Plotly` `Rule-based NLP` `Offline-first`
-
----
-
-## 📈 Stock Price Intelligence Terminal
-**LSTM + Monte Carlo + Technical Analysis — because one method isn't enough**
-
-Most stock prediction projects train a model, plot a price line, and call it done. A single forecast with no uncertainty range isn't honest. This terminal layers three methods: LSTM learns sequential patterns across 60 trading days. Monte Carlo runs up to 2,000 forward simulations and returns a probability distribution — median target, bull/bear cases, likelihood of upside. Technical indicators (Bollinger Bands, RSI, MACD, ATR) give context to read both.
-
-Training pipeline and inference layer are deliberately separated — the same pattern used in production ML serving.
-
-🔗 [Repo](https://github.com/kerubobosire254/stock_app-101)
-
-`TensorFlow` `Keras` `LSTM` `Monte Carlo` `Plotly` `Streamlit` `yfinance`
+`Streamlit` `NLP` `Clinical Decision Support` `Offline-First` `Kenya`
 
 ---
 
 ## 💳 SME Credit Risk Intelligence Platform
-**Explainable credit scoring for businesses traditional lenders can't see**
+**[sme-credit-risk-scoring-app](https://github.com/kerubobosire254/sme-credit-risk-scoring-app)**
 
-Most Kenyan SMEs lack formal records, collateral, and credit history so lenders either reject them or overprice the risk. This platform ingests raw, incomplete SME financial data and outputs a Probability of Default score, an interpretable credit score, a behavioural persona (Stable / Growth / Seasonal / Distressed), and a breakdown of the exact risk drivers behind the decision. Not a black box. An auditable system an underwriter can trust.
+Small businesses in Africa are starved of credit not because they're bad borrowers, but because lenders have no reliable, fast way to assess their risk. Traditional credit scoring models weren't built for SMEs with thin or informal financial histories.
 
-🔗 [Live Demo](https://sme-credit-risk-scoring-app-xadzpa4xvatoo2hk5zm5jj.streamlit.app/) · [Repo](https://github.com/kerubobosire254/sme-credit-risk-scoring-app)
+This platform uses XGBoost and KMeans clustering to score SME creditworthiness and segment borrowers by risk profile. It includes batch scoring for multiple applicants at once, SHAP-based model explainability so you can see *why* a decision was made, and a full interactive dashboard. Built with actuarial rigour — no random noise injected into predictions, deterministic and auditable by design.
 
-`XGBoost` `KMeans` `Explainable AI` `Scikit-learn` `Streamlit`
-
----
-
-## 🧠 SentimentIQ — NLP Sentiment Classifier
-**Strong preprocessing + the right classical model beats complexity for complexity's sake**
-
-Benchmarks Naive Bayes, Logistic Regression, and Linear SVM on Amazon product reviews using TF-IDF, GridSearchCV, and SMOTE for class imbalance. Logistic Regression wins and the README explains exactly why, and exactly where the model breaks. That kind of honesty is what production ML actually requires.
-
-🔗 [Live Demo](https://sentiment-analysisapp-qqzxw6exrhfvsby5ygndf2.streamlit.app/) · [Repo](https://github.com/kerubobosire254/sentiment-analysis_app)
-
-`Scikit-learn` `TF-IDF` `Logistic Regression` `SVM` `Streamlit`
+`XGBoost` `KMeans` `SHAP` `Streamlit` `Credit Scoring` `Batch Processing`
 
 ---
 
-## 🎧 SpotifyDNA — Listening Personality Engine
-**Raw streaming data → behavioural signals → who you actually are as a listener**
+## 🎵 SpotifyDNA — Listening Analytics
+**[The-spotify-data-analysis](https://github.com/kerubobosire254/The-spotify-data-analysis)**
 
-Ingests real Spotify history and engineers skip rate, listening depth, artist diversity, and time-of-day patterns into an interpretable personality: Explorer or Loyalist, Deep or Picky, Night Owl or Early Bird. The translation from raw data to human meaning is what data science is actually for.
+Your Spotify history is a goldmine of data about who you are but the platform only shows you what you listened to, not what it says about you.
 
-🔗 [Live Demo](https://the-spotify-data-analysis-m6w3vxjncfcxyx8yaitjkb.streamlit.app/) · [Repo](https://github.com/kerubobosire254/The-spotify-data-analysis)
+SpotifyDNA analyses listening patterns to infer personality archetypes, mood trends, and audio fingerprints across genres and time periods. It goes beyond play counts to surface what your music taste actually reveals  energy levels, danceability curves, and listening identity. Upload your own Spotify export and see yourself in the data.
 
-`Python` `Pandas` `Plotly` `Streamlit` `Behavioural Analytics`
+`Spotify API` `Pandas` `Plotly` `Personality Archetypes` `Mood Inference` `Streamlit`
 
 ---
+
+## 🧠 SentimentIQ — Sentiment Analysis Engine
+**[sentiment-analysis_app](https://github.com/kerubobosire254/sentiment-analysis_app)**
+
+Businesses make brand decisions based on gut feel because making sense of thousands of customer reviews, tweets, or feedback forms manually is impossible.
+
+SentimentIQ is a three-tab sentiment analysis dashboard that classifies text as positive, negative, or neutral using a logistic regression model with explainability built in  you can see which words drove the score. It supports single-text analysis, bulk CSV uploads for batch processing, and a session analytics tab that tracks patterns across everything analysed in a session.
+
+`Logistic Regression` `NLP` `Model Explainability` `Bulk CSV` `Streamlit`
+
+---
+
+## 📈 Stock Price Intelligence Terminal
+**[stock_app-101](https://github.com/kerubobosire254/stock_app-101)**
+
+Professional-grade stock analysis tools cost thousands of dollars a year and are built for trading desks, not everyday investors. The data exists —the access doesn't.
+
+This terminal brings Bloomberg-style analysis to anyone with a browser. It runs LSTM deep learning predictions on Netflix stock price history, overlays technical indicators (RSI, MACD, Bollinger Bands), and simulates 600 possible price futures using Monte Carlo modelling — all in one clean dashboard with a built-in demo mode so it never loads blank. No CSV required to get started.
+
+`LSTM` `Monte Carlo` `Technical Analysis` `Streamlit` `Time Series` `Deep Learning`
 
 # 🧰 Tech Stack
 
 | Area | Tools |
 |------|-------|
-| **Languages** | Python, SQL |
+| **Languages** | Python, SQL, R |
 | **ML & Modelling** | Scikit-learn, XGBoost, TensorFlow, Keras, LSTM |
 | **NLP** | TF-IDF, Logistic Regression, SVM, Naive Bayes, Rule-based NLP, Prompt Engineering |
 | **Data** | Pandas, NumPy, Feature Engineering, yfinance |
