@@ -6,7 +6,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kerubo%20Bosire-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/kerubo-bosire-364523283)
 [![Email](https://img.shields.io/badge/Email-kerubobosire254-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kerubobosire254@gmail.com)
-(https://github.com/kerubobosire254)
 [![Open to Work](https://img.shields.io/badge/Open%20to-ML%20Engineer%20Roles-14CC60?style=flat)](https://linkedin.com/in/kerubo-bosire-364523283)
 
 </div>
