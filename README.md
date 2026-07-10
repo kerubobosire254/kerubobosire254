@@ -21,13 +21,11 @@ I'm your person
 ## 🩺 BreastCare Kenya
 **[breastcancer_help_app](https://github.com/kerubobosire254/breastcancer_help_app)**
 
-Breast cancer is one of the leading causes of cancer deaths among Kenyan women yet most healthcare workers have no clinical decision support tool at their fingertips. Screening decisions are made from memory, in under-resourced settings, often without internet access.
+–	Built a 7-module clinical decision support app addressing a documented gap in Kenyan breast cancer care: published KAP research shows practitioners know the screening guidelines (54.7%) but don't consistently act on them in practice (29.2%, as low as 12.7% among community health workers) - a major reason patients aren't caught until Stage III or IV.
+–	Designed an end-to-end workflow where each patient encounter automatically drives the next stage of care, symptoms flow into the screening checklist, red flags trigger referral recommendations, referrals generate follow-up records, and the encounter produces a clinical handover summary with zero duplicate data entry across the journey.
+–	Engineered the platform to run fully offline, building a weighted risk-scoring engine, an evidence-based referral recommendation system, and CareBot (a rule-based NLP clinical assistant covering 11 breast cancer topics) so practitioners get instant guidance with no internet access, API keys, or subscriptions required.
 
-BreastCare Kenya is a clinical decision support platform built specifically for Kenyan healthcare workers. It uses a KAP survey of 250 practitioners as its foundation, flags high-risk patients based on clinical inputs, generates automatic referral letters and handover summaries, and includes an offline-capable NLP chatbot covering 11 clinical topics — no paid API, no internet required. Built as a hackathon entry for Build54.
-
-It is a 7-module platform: risk assessment → screening checklist → referral intelligence → follow-up tracking → analytics dashboard → clinical CareBot. Every module feeds the next automatically. One patient. One journey. Zero re-entry.
-
-`Streamlit` `NLP` `Clinical Decision Support` `Offline-First` `Kenya`
+`Streamlit` `NLP` `Plotly` 
 
 ---
 
@@ -42,6 +40,14 @@ This platform uses XGBoost and KMeans clustering to score SME creditworthiness a
 
 ---
 
+🔎 TraceKE — Missing Persons Identification System
+          Python | Streamlit | Facenet-PyTorch | ChromaDB | OpenCV (YuNet)
+         ↗ Live Demo: https://traceke.streamlit.app/
+–	170 women were killed in Kenya in 2024. Over 8,800 children were reported missing. Some were found weeks later, alive, sitting in a hospital or a police station, unidentified, while their families were still searching. Not always because no one was looking, but because there's often no easy way to connect a person found in one place to a report filed in another. TraceKE is an attempt to close that gap.
+–	Designed the confidence score to be multi signal on purpose, not just face similarity. Facial embedding match carries 55% of the score, age estimation 25%, gender 20%. Location is shown as context only and never used to penalize a match, because a person found 400km from home may have been trafficked, not misidentified.
+–	Made the harder call to never reject a low quality photo. For some families, one blurry image taken years ago is the only one they have. The system flags uncertainty instead of discarding data, and redistributes confidence weights when a signal is missing rather than punishing incomplete cases.
+–	Documented the model's limitations as rigorously as its features. Facenet was trained predominantly on Western datasets and has not been independently benchmarked on East African faces under real world lighting and resolution conditions, which is the single biggest gap the next version needs to close.
+
 ### ⚽ World Cup 2026 Match Predictor
 Python | XGBoost | Poisson Regression | Streamlit
 ↗ Live Demo: https://2026-worldcuppredictions-msqvpuk2xsy4w8zsuo7taz.streamlit.app/
@@ -52,15 +58,6 @@ Python | XGBoost | Poisson Regression | Streamlit
 
 ---
 
-### 🔍 ATS Resume Analyzer
-Python | Flask | spaCy | TF-IDF | Scikit-learn
-↗ Live Demo: https://2026-worldcuppredictions-msqvpuk2xsy4w8zsuo7taz.streamlit.app/
-– A lot of great candidates never hear back after applying , not because they're unqualified, but because their resume uses slightly different words than the job description, and the automated system never makes the connection. This tool helps bridge that gap.
-– Upload your resume, paste the job description, and the app tells you how well they match: a compatibility score, the keywords you share, the ones you're missing, and what you can do about it. It turns resume optimization from guesswork into something you can actually act on.
-– The hardest design decision was honesty. A high match score doesn't automatically mean you're the right person for the job. A low one doesn't mean you aren't. The app is upfront about this, the score is a guide, not a verdict.
-– Built with the real limitations of keyword-based systems in mind: they struggle with synonyms, can't weigh soft skills, and trip over the fact that two companies describing the same role will use completely different language. Documenting what the tool can't do turned out to be just as important as building what it can.
-
----
 ## 🎵 SpotifyDNA — Listening Analytics
 **[The-spotify-data-analysis](https://github.com/kerubobosire254/The-spotify-data-analysis)**
 
