@@ -6,7 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kerubo%20Bosire-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/kerubo-bosire-364523283)
 [![Email](https://img.shields.io/badge/Email-kerubobosire254-D14836?style=flat&logo=gmail&logoColor=white)](mailto:kerubobosire254@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=kerubobosire254&color=14CC60&style=flat&label=Profile+Views)](https://github.com/kerubobosire254)
+(https://github.com/kerubobosire254)
 [![Open to Work](https://img.shields.io/badge/Open%20to-ML%20Engineer%20Roles-14CC60?style=flat)](https://linkedin.com/in/kerubo-bosire-364523283)
 
 </div>
@@ -19,7 +19,7 @@ My background is Actuarial Science, which means I think in probabilities, risk, 
 
 I work across the full ML stack: feature engineering, model development, explainability, deployment. XGBoost, LSTM networks, Poisson regression, SHAP, TF-IDF, vector search, dynamic feedback systems — not as buzzwords, but as tools I've broken, debugged, and rebuilt until they worked the way I needed them to.
 
-By day I work in pensions and financial services, which means I understand what it costs when systems get things wrong. I also teach Python and Data Science at Tech Savvy Institute — teaching tells you very fast what you actually understand versus what you just think you do.
+By day I work in pensions and financial services, which means I understand what it costs when systems get things wrong. I also teach Python and Data Science at Tech Savvy Institute, teaching tells you very fast what you actually understand versus what you just think you do.
 
 I have a thing for systems that are honest, models that show their reasoning, and tools built for people who don't have the luxury of perfect infrastructure.
 
@@ -29,9 +29,9 @@ I have a thing for systems that are honest, models that show their reasoning, an
 
 ## 🔎 TraceKE — Missing Persons Identification System
 
-**[TraceKE](https://github.com/kerubobosire254/TraceKE)** ⚠️ *repo link not yet confirmed — send me the real one*
+**[TraceKE](https://github.com/kerubobosire254/TraceKE)** 
 
-170 women were killed in Kenya in 2024. Over 8,800 children were reported missing. Some were found weeks later, alive, sitting in a hospital or a police station, unidentified — not always because no one was looking, but because there's often no easy way to connect a person found in one place to a report filed in another. TraceKE is an attempt to close that gap.
+170 women were killed in Kenya in 2024. Over 8,800 children were reported missing. Some were found weeks later, alive, sitting in a hospital or a police station, unidentified not always because no one was looking, but because there's often no easy way to connect a person found in one place to a report filed in another. TraceKE is an attempt to close that gap.
 
 - Designed the confidence score to be **multi-signal on purpose**, not just face similarity: facial embedding match carries 55% of the score, age estimation 25%, gender 20%. Location is shown as context only and never used to penalize a match, because a person found 400km from home may have been trafficked, not misidentified.
 - Made the harder call to **never reject a low-quality photo**. For some families, one blurry image taken years ago is the only one they have — the system flags uncertainty instead of discarding data, and redistributes confidence weights when a signal is missing rather than punishing incomplete cases.
@@ -43,7 +43,7 @@ I have a thing for systems that are honest, models that show their reasoning, an
 
 ## 🩺 BreastCare Kenya
 
-**[breastcancer_help_app](https://github.com/kerubobosire254/breastcancer_help_app)** ⚠️ *repo link not yet confirmed — send me the real one*
+**[breastcancer_help_app](https://github.com/kerubobosire254/breastcancer_help_app)** 
 
 Built a 7-module clinical decision support app addressing a documented gap in Kenyan breast cancer care: published KAP research shows practitioners know the screening guidelines (54.7%) but don't consistently act on them in practice (29.2%, as low as 12.7% among community health workers) — a major reason patients aren't caught until Stage III or IV.
 
@@ -56,13 +56,13 @@ Built a 7-module clinical decision support app addressing a documented gap in Ke
 
 ## 💳 SME Credit Risk Intelligence Platform
 
-**[sme-credit-risk-scoring-app](https://github.com/kerubobosire254/sme-credit-risk-scoring-app)** ✅
+**[sme-credit-risk-scoring-app](https://github.com/kerubobosire254/sme-credit-risk-scoring-app)**
 
 Small businesses in Africa are starved of credit not because they're bad borrowers, but because lenders have no reliable, fast way to assess their risk. Traditional credit scoring models weren't built for SMEs with thin or informal financial histories.
 
 - Uses XGBoost and KMeans clustering to score SME creditworthiness and segment borrowers by risk profile.
 - Includes batch scoring for multiple applicants at once, SHAP-based model explainability so you can see *why* a decision was made, and a full interactive dashboard.
-- Built with actuarial rigour — no random noise injected into predictions, deterministic and auditable by design.
+- Built with actuarial rigour no random noise injected into predictions, deterministic and auditable by design.
 
 `XGBoost` `KMeans` `SHAP` `Streamlit` `Credit Scoring` `Batch Processing`
 
@@ -70,12 +70,12 @@ Small businesses in Africa are starved of credit not because they're bad borrowe
 
 ## ⚽ World Cup 2026 Match Predictor
 
-**[World-Cup-2026-Predictor](https://github.com/kerubobosire254/World-Cup-2026-Predictor)** ⚠️ *repo link not yet confirmed — send me the real one*
+**[World-Cup-2026-Predictor](https://github.com/kerubobosire254/World-Cup-2026-Predictor)** 
 
 Every four years, millions of people predict World Cup results with complete confidence. Every four years, Argentina loses to Saudi Arabia and ruins everything.
 
 - Built a match predictor for all 48 WC 2026 teams that gives real probabilities: who's likely to win, by how much, and with what scoreline.
-- Trained on 964 World Cup matches going back to 1930. The trickiest part was stopping it from just predicting "home win" every time (technically 57% accurate but useless) — fixed by adjusting output probabilities to match real-world outcome frequencies.
+- Trained on 964 World Cup matches going back to 1930. The trickiest part was stopping it from just predicting "home win" every time (technically 57% accurate but useless). Fixed by adjusting output probabilities to match real-world outcome frequencies.
 - Built a live feedback loop: enter real results as the tournament plays out and the app recalculates every team's form and rating on the fly.
 
 `Python` `XGBoost` `Poisson Regression` `ELO Ratings` `Streamlit`
@@ -84,12 +84,12 @@ Every four years, millions of people predict World Cup results with complete con
 
 ## 🎵 SpotifyDNA — Listening Analytics
 
-**[The-spotify-data-analysis](https://github.com/kerubobosire254/The-spotify-data-analysis)** ⚠️ *repo link not yet confirmed — send me the real one*
+**[The-spotify-data-analysis](https://github.com/kerubobosire254/The-spotify-data-analysis)** 
 
 Your Spotify history is a goldmine of data about who you are, but the platform only shows you what you listened to, not what it says about you.
 
 - Analyses listening patterns to infer personality archetypes, mood trends, and audio fingerprints across genres and time periods.
-- Surfaces energy levels, danceability curves, and listening identity — upload your own Spotify export and see yourself in the data.
+- Surfaces energy levels, danceability curves, and listening identity, upload your own Spotify export and see yourself in the data.
 
 `Spotify API` `Pandas` `Plotly` `Personality Archetypes` `Mood Inference` `Streamlit`
 
@@ -97,7 +97,7 @@ Your Spotify history is a goldmine of data about who you are, but the platform o
 
 ## 🔍 SentimentIQ — NLP Sentiment Intelligence Engine
 
-**[sentiment-analysis_app](https://github.com/kerubobosire254/sentiment-analysis_app)** ✅
+**[sentiment-analysis_app](https://github.com/kerubobosire254/sentiment-analysis_app)** 
 
 Every organisation collects customer feedback. Almost none of them can actually read it at scale.
 
@@ -111,12 +111,12 @@ Every organisation collects customer feedback. Almost none of them can actually 
 
 ## 📈 Stock Price Intelligence Terminal
 
-**[Stock-Price-Prediction-API](https://github.com/kerubobosire254/Stock-Price-Prediction-API)** ✅
+**[Stock-Price-Prediction-API](https://github.com/kerubobosire254/Stock-Price-Prediction-API)** 
 
 Professional-grade stock analysis tools cost thousands of dollars a year and are built for trading desks, not everyday investors.
 
 - Runs LSTM deep learning predictions on stock price history, overlays technical indicators (RSI, MACD, Bollinger Bands), and simulates 600 possible price futures using Monte Carlo modelling.
-- Built-in demo mode so it never loads blank — no CSV required to get started.
+- Built-in demo mode so it never loads blank, no CSV required to get started.
 
 `LSTM` `Monte Carlo` `Technical Analysis` `Streamlit` `Time Series` `Deep Learning`
 
