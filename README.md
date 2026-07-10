@@ -33,8 +33,8 @@ I have a thing for systems that are honest, models that show their reasoning, an
 170 women were killed in Kenya in 2024. Over 8,800 children were reported missing. Some were found weeks later, alive, sitting in a hospital or a police station, unidentified not always because no one was looking, but because there's often no easy way to connect a person found in one place to a report filed in another. TraceKE is an attempt to close that gap.
 
 - Designed the confidence score to be **multi-signal on purpose**, not just face similarity: facial embedding match carries 55% of the score, age estimation 25%, gender 20%. Location is shown as context only and never used to penalize a match, because a person found 400km from home may have been trafficked, not misidentified.
-- Made the harder call to **never reject a low-quality photo**. For some families, one blurry image taken years ago is the only one they have — the system flags uncertainty instead of discarding data, and redistributes confidence weights when a signal is missing rather than punishing incomplete cases.
-- Documented the model's limitations as rigorously as its features: Facenet was trained predominantly on Western datasets and hasn't been independently benchmarked on East African faces under real-world lighting and resolution conditions — the single biggest gap the next version needs to close.
+- Made the harder call to **never reject a low-quality photo**. For some families, one blurry image taken years ago is the only one they have, the system flags uncertainty instead of discarding data, and redistributes confidence weights when a signal is missing rather than punishing incomplete cases.
+- Documented the model's limitations as rigorously as its features: Facenet was trained predominantly on Western datasets and hasn't been independently benchmarked on East African faces under real-world lighting and resolution conditions, the single biggest gap the next version needs to close.
 
 `Python` `Streamlit` `Facenet-PyTorch` `ChromaDB` `OpenCV (YuNet)` `Face Recognition`
 
