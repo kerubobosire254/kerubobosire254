@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=14CC60&center=true&vCenter=true&width=650&lines=Actuarial+Scientist+%E2%86%92+ML+Engineer;I+build+AI+systems+for+problems+that+matter;Actuarial+brain%2C+data+science+hands." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=14CC60&center=true&vCenter=true&width=650&lines=Actuarial+Scientist+%E2%86%92+ML+Engineer;I+build+AI+systems+for+problems+that+matter." alt="Typing SVG" />
 
 ### Actuarial Scientist → Machine Learning Engineer + AI Engineer
 
