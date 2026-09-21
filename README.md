@@ -1,7 +1,6 @@
-
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=14CC60&center=true&vCenter=true&width=650&lines=Actuarial+Scientist+%E2%86%92+Machine+Learning+Engineer;I+build+AI+systems+for+problems+that+matter." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=14CC60&center=true&vCenter=true&width=750&lines=Actuarial+Scientist+%E2%86%92+Machine+Learning+Engineer;I+build+AI+systems+for+problems+that+matter." alt="Typing SVG" />
 
 ### Actuarial Scientist → Machine Learning Engineer + AI Engineer
 
@@ -169,6 +168,6 @@ A few smaller builds that taught me just as much, because something always break
 [![Gmail](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kerubobosire254@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Explore%20My%20Work-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kerubobosire254)
 
-**Open to ML Engineer roles.** If you're reading this, you've already seen more of my work than most job descriptions ask for. Let's talk.
+**Open to Machine Learning Engineer roles.** If you're reading this, you've already seen more of my work than most job descriptions ask for. Let's talk.
 
 </div>
